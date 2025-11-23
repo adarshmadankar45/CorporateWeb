@@ -1,5 +1,55 @@
-{% include 'header.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT NEXT - Software Development Company</title>
 
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/header-footer.css">
+    <link rel="stylesheet" href="static/css/sections.css">
+    <link rel="stylesheet" href="static/css/about.css">
+    <link rel="stylesheet" href="static/css/portfolio.css">
+    <link rel="stylesheet" href="static/css/contact.css">
+    <link rel="stylesheet" href="static/css/web-development.css">
+    <link rel="stylesheet" href="static/css/mobile_development.css">
+    <link rel="stylesheet" href="static/css/software_testing.css">
+    <link rel="stylesheet" href="static/css/ui_ux_design.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="static/images/logo.jpg" alt="MIT NEXT Logo">
+
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="web_application.html">Web Application Development</a></li>
+                            <li><a href="mobile_development.html">Mobile App Development</a></li>
+                            <li><a href="software_testing.html">Software & Quality Assurance</a></li>
+                            <li><a href="ui_ux_desgin.html">UI/UX Design</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#quote" class="btn btn-quote">Get a Quote</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 <main>
     <!-- Contact Hero Section -->
     <section class="contact-hero">
@@ -97,4 +147,76 @@
     </section>
 </main>
 
-{% include 'footer.html' %}
+<footer class="footer">
+        <div class="footer-top section-padding">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <a href="index.html">
+<!--                                <img src="static/images/logo.png" alt="MIT NEXT Logo">-->
+                                <span>MIT NEXT</span>
+                            </a>
+                        </div>
+                        <p>Innovative software solutions to transform your business and drive growth in the digital world.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="web_application.html">Web Development</a></li>
+                            <li><a href="mobile_development.html">Mobile App Development</a></li>
+                            <li><a href="software_testing.html">QA & Testing</a></li>
+                            <li><a href="ui_ux_design.html">UI/UX Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Contact Us</h3>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Bangalore, India - 560001</li>
+                            <li><i class="fas fa-phone"></i> +91 9876543210</li>
+                            <li><i class="fas fa-envelope"></i> info@mitnextsoftware.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2025 MIT NEXT Software & Services Private Limited. All Rights Reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/index.js"></script>
+    <script src="static/js/header-footer.js"></script>
+    <script src="static/js/sections.js"></script>
+    <script src="static/js/about.js"></script>
+    <script src="static/js/portfolio.js"></script>
+    <script src="static/js/contact.js"></script>
+    <script src="static/js/web-development.js"></script>
+    <script src="static/js/mobile_development.js"></script>
+    <script src="static/js/software_testing.js"></script>
+    <script src="static/js/ui_ux_design.js"></script>
